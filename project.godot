@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="HermitCraft-Platformer"
-run/main_scene="uid://bbpc3xfs42xg"
+config/name="Hermitcraft Platformer"
+run/main_scene="uid://khuaflhn2od1"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 

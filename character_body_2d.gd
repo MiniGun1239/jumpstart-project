@@ -1,8 +1,10 @@
 extends CharacterBody2D
 
+@export var disney_location: Vector2 = Vector2(-5000, 100)
 
-const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
+const MULT = 1
+const SPEED = 150.0 * MULT
+const JUMP_VELOCITY = -200.0 * MULT
 
 
 func _physics_process(delta: float) -> void:
@@ -23,3 +25,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	body.global_position = disney_location
