@@ -10,3 +10,7 @@ If you watched hermitcraft, you'd know how much Scar likes to talk about disney,
 in this game, you can explore the very very limited map and if you go near scar, you get stuck in disney.
 
 Literally nothing else, i spent most of my time creating the map and drawing the sprites and blocks.
+
+## How to play?
+
+go here: [Itch.io Page for this](https://minigun1239.itch.io/scar-is-not-a-disney-adult)
